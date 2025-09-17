@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация о среде сервера</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1>⚙️ Информация о среде сервера</h1>
+            <p>Нажмите кнопку, чтобы получить подробную информацию о среде, в которой работает это приложение.</p>
+
+            <div class="controls">
+                <button id="get_info_btn">Протестировать конфигурацию</button>
+            </div>
+
+            <div id="loading_indicator" class="loading-indicator" style="display: none;">Загрузка информации...</div>
+
+            <div id="server_info_output" class="info-grid">
+                <!-- Информация о сервере будет отображена здесь с помощью JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js" type="module"></script>
+</body>
+</html>
